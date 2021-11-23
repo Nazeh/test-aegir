@@ -1,10 +1,21 @@
 {
-  "main": "src/index.js",
+  "type": "module",
+  "name": "test",
+  "version": "0.0.1",
+  "description": "testing aegir",
+  "keywords": [
+    "test",
+    "aegir"
+  ],
+  "homepage": "https://github.com/Nazeh/test-aegir",
+  "bugs": "https://github.com/Nazeh/test-aegir/issues",
+  "license": "MIT",
   "files": [
     "src",
     "dist"
   ],
-  "type": "module",
+  "main": "src/index.js",
+  "repository": "https://github.com/Nazeh/test-aegir",
   "scripts": {
     "lint": "aegir lint",
     "release": "aegir release",
@@ -16,7 +27,9 @@
   "devDependencies": {
     "aegir": "^36.0.0"
   },
-  "version": "0.0.1",
+  "engines": {
+    "npm": "~1.0.20"
+  },
   "contributors": [
     "Nazeh <ar.nazeh@gmail.com>"
   ]
