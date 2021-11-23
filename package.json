@@ -1,0 +1,19 @@
+{
+  "main": "src/index.js",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "type": "module",
+  "scripts": {
+    "lint": "aegir lint",
+    "release": "aegir release",
+    "build": "aegir build",
+    "test": "aegir test",
+    "test:node": "aegir test --target node",
+    "test:browser": "aegir test --target browser"
+  },
+  "devDependencies": {
+    "aegir": "^36.0.0"
+  }
+}
