@@ -15,5 +15,9 @@
   },
   "devDependencies": {
     "aegir": "^36.0.0"
-  }
+  },
+  "version": null,
+  "contributors": [
+    "Nazeh <ar.nazeh@gmail.com>"
+  ]
 }
